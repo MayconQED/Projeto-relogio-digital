@@ -120,7 +120,7 @@ footer p {
     }
 
     #clock {
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
 
     #date {
@@ -128,11 +128,17 @@ footer p {
     }
 }
 
-@media (max-width: 320px) {
-    body {
-        max-width: 270;
+@media (max-width: 375px) {
+    #clock {
+        font-size: 4rem;
     }
 
+    #date {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 320px) {
     .main {
         height: 350px;
     }
@@ -142,10 +148,14 @@ footer p {
     }
 
     #clock {
-        font-size: 4.25rem;
+        font-size: 4rem;
     }
 
     #date {
         font-size: 1rem;
+    }
+
+    footer p {
+        font-size: .9rem;
     }
 }
